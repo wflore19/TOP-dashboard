@@ -1,0 +1,155 @@
+* {
+    border: 1px solid red;
+    font-family: roboto;
+    --primary-color: #ffffff;
+    --secondary-color: #2f93d5;
+    --tertiary-color: #e2e8f0;
+    --accent-color: #f0b428;
+}
+
+a {
+    display: block;
+}
+
+.main {
+    height: calc(100vh - 25px);
+    width: 100vw;
+    display: grid;
+    grid-template: 1fr 5fr / 1fr 5fr;
+}
+
+[class$='-options'] {
+    margin-bottom: 40px;
+}
+.container-side {
+    color: white;
+    background-color: var(--secondary-color);
+    grid-row: 1 / span 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-options {
+    display: flex;
+    padding: 10px;
+    justify-content: start;
+    align-items: center;
+}
+.menu-options {
+    padding: 10px;
+}
+.setting-options {
+    padding: 10px;
+}
+
+.title {
+    font-size: 1.6rem;
+
+}
+.title-options > img {
+    height: 50px;
+    color: white;
+}
+
+.home {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.home > img {
+    height: 25px;
+    margin: .7rem;
+}
+
+.profile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.profile > img {
+    height: 25px;
+    margin: .7rem;
+}
+
+.messages {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.messages > img {
+    height: 25px;
+    margin: .7rem;
+}
+
+.history {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.history > img {
+    height: 25px;
+    margin: .7rem;
+}
+
+.tasks {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.tasks > img {
+    height: 25px;
+    margin: .7rem;
+}
+
+.communities {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.communities > img {
+    height: 25px;
+    margin: .7rem;
+}
+
+.settings {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.settings > img {
+    height: 25px;
+    margin: .7rem;
+}
+
+.support {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.support > img {
+    height: 25px;
+    margin: .7rem;
+}
+
+.privacy {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.privacy > img {
+    height: 25px;
+    margin: .7rem;
+}
+
+.side-items {
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.container-top {
+    background-color: var(--primary-color);
+    grid-column: 2;
+}
+.container-bot {
+    background-color: var(--tertiary-color);
+}
